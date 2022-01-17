@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>党史学习</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+	</head>
+	<body>
+		<!-- 导航栏 begin-->
+		<div class="daohang" id="head">
+			<div class="w">
+				<!-- 党徽 -->
+				<a href="index.html" class="danghui"></a>
+				<!-- 菜单 begin-->
+				<ul>
+					<li class="x1">
+						<a href="#">要闻要论</a>
+						<span>
+							<ul>
+								<li><a href="yaowen.html">要闻</a></li>
+								<li><a href="yaolun.html"></a></li>
+							</ul>
+						</span>
+					</li>
+					<li class="x2">
+						<a href="#">媒体集萃</a>
+						<span>
+							<ul>
+								<li><a href="tebietuijian.html">特别推荐</a></li>
+								<li><a href="dsbn.html">党史百年</a></li>
+							</ul>
+						</span>
+					</li>
+					<li class="x3">
+						<a href="#">党史资料</a>
+						<span>
+							<ul>
+								<li><a href="yingshi.html">百年影像</a></li>
+								<li><a href="hongsezhanguan.html">红色展馆</a></li>
+							</ul>
+						</span>
+					</li>
+					<a href="register.html" class="user">登录/注册</a>
+				</ul>
+				<!-- 菜单 end-->
+			</div>
+		</div>
+		<!-- 导航栏 end-->
+		<!-- banner begin-->
+		<div class="banner">
+			<a href="#"><img src="images/banner.jpg" alt=""></a>
+		</div>
+		<!-- banner end-->
+		<!-- 返回顶部 begin -->
+		<a href="#head" class="tops">︿<br>TOP</a>
+		<!-- 返回顶部 end -->
+		<!-- content begin -->
+		<div style="background-color: antiquewhite; margin-top: -5px;">
+			<h2 class="w">近期热点</h2>
+			<!-- 导播图 begin-->
+			<div class="daobo w">
+				<!-- Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="images/daobo1.png" alt="" height="300px"></div>
+						<div class="swiper-slide"><img src="images/daobo2.png" alt="" height="300px"></div>
+						<div class="swiper-slide"><img src="images/daobo3.png" alt="" height="300px"></div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		
+			<!-- Swiper JS -->
+			<script src="./js/swiper.min.js"></script>
+		
+			<!-- Initialize Swiper -->
+			<script>
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 3,
+					spaceBetween: 30,
+					centeredSlides: true,
+					loop: true,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev",
+					},
+				});
+			</script>
+			<!-- 导播图 end-->
+		</div>
+		<!-- 媒体集萃 -->
+		<div style="background-color: #ebe5e2;">
+			<div style="width: 960px; margin: 0 auto;">
+				<h2>媒体集萃</h2>
+				<div class="meiti">
+					<a href="#"><img src="images/meiti3.png" alt=""></a>
+					<a href="#"><img src="images/meiti8.png" alt=""></a>
+					<a href="#"><img src="images/meiti1.png" alt=""></a>
+					<a href="#"><img src="images/meiti6.png" alt=""></a>
+					<a href="#"><img src="images/meiti7.png" alt=""></a>
+					<a href="#"><img src="images/meiti9.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<!-- 百年党史 -->
+		<div>
+			<div class="w" style="overflow: hidden;">
+				<h2>奋斗百年路&nbsp;启航新征程</h2>
+				<h4 class="dang">百年党史</h4>
+				<a class="dangshi" href="#">
+					<img src="images/dangshi1.png" alt="" />          
+				    <h3>解放碑那些鲜为人知的故事</h3>
+				    <p>这座通高27.5米的建筑，不仅是重庆城的形象标识，也是重庆市民的集体记忆，可谓重庆的“精神丰碑”。而在它的背后，也有很多鲜为人知的故事。</p>
+				    <br /><br /><br />
+				<a>
+				<a class="dangshi" href="#">
+					<img src="images/dangshi2.png" alt="" />          
+				    <h3>湖南和平解放见证统战伟力</h3>
+				    <p>湖南和平解放是中国共产党运用统一战线政策，与国民党地方当局和平协商、用不流血方式解决局部问题的成功范例，是加速大西南、大西北国民党统治政权崩溃的重大事件，是湖南党史的突出亮点之一。</p>
+				    <br /><br /><br />
+				</a>
+				<h4 class="dang" style="float: left; width: 100%;">理论·经验</h4>
+				<a class="dangshi" href="#">
+					<img src="images/dangshi3.png" alt="" />          
+				    <h3>弘扬新时代科学家精神</h3>
+				    <p>长期以来，一代又一代科学家秉持深厚的爱国主义情怀，凭借精湛的学术造诣、宽广的科学视野，为祖国和人民作出了重大贡献。</p>
+				    <br /><br /><br />
+				</a>
+				<ul class="dang1">
+					<li><a href="#" >·以史明志，吹响新征程的嘹亮号角</a></li>
+					<li><a href="#" >·用马克思主义之箭射中国革命之的</a></li>
+					<li><a href="#" >·扎牢党的历史根基和人民根基</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- content end -->
+		<!--footer begin-->
+		<footer>
+			<div class="foot">
+				<p>软工第九小组版权所有</p>
+				<p>1934120112&nbsp;韩锦恒&nbsp;&nbsp;1934120108&nbsp;崔震云&nbsp;&nbsp;1934120158&nbsp;郑凯</p>
+			</div>
+		</footer>
+		<!--footer end-->
+	</body>
+</html>

@@ -1,0 +1,191 @@
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {margin:0;padding:0;border:0;list-style: none;}
+body{
+	background-color: #edf1d5;
+}
+.toper{
+	height: 60px;
+	width: 100%;
+	
+	background-color: #BA261A;
+}
+.w{
+	width: 1200px;
+}
+.toper ul {
+	margin-left: 80px;
+	display: inline-block;
+}
+.toper ul li{
+	display: inline-block;
+}
+.ul_right{
+	float: right;
+}
+.toper ul li a{
+	display: inline-block;
+	color: #ffce78;
+	margin: 15px 35px 15px 35px ;
+	text-decoration: none;
+	font-size: 20px;
+}
+.toper ul li a:hover{
+	color: #8d6734;
+}
+.logo img{
+	margin: 30px 0 10px 110px; 
+	width: 472px;
+	height: 53px;
+
+}
+.hr_scp1{
+	border: none;
+	height: 10px;
+	width: 100%;
+	background-color:#b1070e;
+	margin-bottom: 30px;
+}
+.main{
+	margin: 0 auto;
+}
+.main a{
+
+	text-decoration: none;
+	color: #000000;
+}
+.main a:hover{
+	color: #8d6734;
+	
+}
+.main p{
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+	color: #000000;
+}
+.p_scp{
+	display: inline-block;
+}
+.main .line{
+	text-align: right;
+}
+.main .line i{
+	color: #B1070E;
+	display: inline;
+	
+}
+.main video{
+	width: 100%;
+	height: 600px;
+}
+.about{
+	margin: 0 auto;
+}
+
+.about p{
+	font-size: 20px;
+}
+.about .about_left{
+	float: left;
+	width: 900px;
+}
+.about .about_left a{
+	
+	width: 200px;
+	height: 150px;
+}
+.about .about_left a img{
+	transition:transform 2s;
+}
+.about .about_left a img:hover{
+	transform: scale(1.1,1.1);
+	
+}
+.about .about_left .video{
+	width: 200px;
+	height: 150px;
+	display:inline-block;
+}
+.video:hover .cover{
+	display: block;
+}
+.about .about_left a .cover{
+	margin: 20px 10px 20px 0;
+	width: 200px;
+	height: 150px;
+	display: none;
+	position: absolute;
+	background: rgba(0, 0, 0, .4) url(../images/arr.png) no-repeat center;
+}
+.about .about_right{
+	margin-top: 3px;
+	float: right;
+	width: 296px;
+}
+.about .about_right textarea{
+	margin-left: 31px;
+	width: 229px;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #888888;
+}
+.about .about_right hr{
+	width: 234px;
+	height: 8px;
+	background-color: #B1070E;
+}
+.about ul li {
+	position: relative;
+	display: inline-block;
+	margin: 20px 10px 20px 0;
+	width: 200px;
+	height: 150px;
+}
+.about .about_left img{
+	display: inline-block;
+	margin: 20px 10px 20px 0;
+	width: 200px;
+	height: 150px;
+}
+.about .lines{
+	width: 1200px;
+	margin: 0 auto;
+}
+.about .lines p{
+	display: inline-block;
+}
+.about .lines .p_r{
+	float: right;
+	margin-right: 139px;
+}
+.about .lines .p_l{
+	text-align: left;
+}
+.comment{
+	margin: 0 auto;
+	height: 400px;
+	background-color: #faf7dd;
+}
+.comment textarea{
+	font-size: 18px;
+	text-align: left;
+	color:#c7c7c7;
+	margin: 45px 44px 45px 44px;
+	height: 300px;
+	width: 1100px;
+	
+	}
+.sent{
+	margin: 0 auto;
+	text-align: right;
+}
+.sent button{
+	border-radius: 25px;
+	margin: 20px 45px;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	background-color: #2FADE7;
+	color: #8A0500;
+}
+.clear {
+  clear: both;
+  }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>党史学习</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/hongsezhanguan.css">
+	</head>
+	<body>
+		<!-- 导航栏 begin-->
+		<div class="daohang" id="head">
+			<div class="w">
+				<!-- 党徽 -->
+				<a href="index.html" class="danghui"></a>
+				<!-- 菜单 begin-->
+				<ul>
+					<li class="x1">
+						<a href="#">要闻要论</a>
+						<span>
+							<ul>
+								<li><a href="yaowen.html">要闻</a></li>
+								<li><a href="yaolun.html">要论</a></li>
+							</ul>
+						</span>
+					</li>
+					<li class="x2">
+						<a href="#">媒体集萃</a>
+						<span>
+							<ul>
+								<li><a href="tebietuijian.html">特别推荐</a></li>
+								<li><a href="dsbn.html">党史百年</a></li>
+							</ul>
+						</span>
+					</li>
+					<li class="x3">
+						<a href="#">党史资料</a>
+						<span>
+							<ul>
+								<li><a href="yingshi.html">百年影像</a></li>
+								<li><a href="hongsezhanguan.html">红色展馆</a></li>
+							</ul>
+						</span>
+					</li>
+					<a href="register.html" class="user">登录/注册</a>
+				</ul>
+				<!-- 菜单 end-->
+			</div>
+		</div>
+		<!-- 导航栏 end-->
+
+		<!-- banner begin-->
+		<div class="banner1">
+			<img src="images/hong-banner.jpg" alt="">
+		</div>
+		<!-- banner end-->
+
+		<div style="background-color: #f1ebe6; margin-top: -5px; padding:100px 0 ;">
+			<!-- 导播图 begin-->
+			<div class="daobo1 w">
+				<!-- Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<p>瑞金中央革命根据地纪念馆</p>
+							<img src="images/zhan1.jpg" alt="" height="300px">
+							<span>瑞金中央革命根据地纪念馆又名中央革命根据地历史博物馆，是为纪念土地革命战争时期中国共产党及其领袖毛泽东、朱德、周恩来等老一辈无产阶级革命家直接领导创建中央革命根据地和红一方面军，缔造中华苏维埃共和国的历史而建立的革命类纪念馆。</span>
+						</div>
+						<div class="swiper-slide">
+							<p>西柏坡纪念馆</p>
+							<img src="images/zhan2.jpg" alt="" height="300px">
+							<span>西柏坡位于河北省平山县中部，是解放战争时期中央工委、中共中央和解放军总部的所在地。1949年3月23日，中共中央和解放军总部离开西柏坡，赴京建国。新中国从这里走来。</span>
+						</div>
+						<div class="swiper-slide">
+							<p>遵义会议纪念馆</p>
+							<img src="images/zhan3.jpg" alt="" height="300px">
+							<span>遵义会议纪念馆是为纪念中国共产党历史上具有伟大历史意义的遵义会议而建立的，是中华人民共和国成立后最早建立的21个革命纪念馆之一。</span>
+						</div>
+						<div class="swiper-slide">
+							<p>中共一大会址纪念馆</p>
+							<img src="images/zhan4.jpg" alt="" height="300px">
+							<span>1921年7月23日，中国共产党第一次全国代表大会在这里召开，来自7个共产党早期组织的13位代表与2位共产国际代表出席会议。会议宣告了中国共产党的正式成立。</span>
+						</div>
+						<div class="swiper-slide">
+							<p>侵华日军南京大屠杀遇难同胞纪念馆</p>
+							<img src="images/zhan5.jpg" alt="" height="300px">
+							<span>纪念馆含侵华日军南京大屠杀史实展、“三个必胜”主题展、“二战中的性奴隶——日军‘慰安妇’制度及其罪行展”等三个基本陈列，展示了南京大屠杀、日军“慰安妇”制度、中国人民抗日战争伟大胜利的历史。</span>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+
+			<!-- Swiper JS -->
+			<script src="./js/swiper.min.js"></script>
+
+			<!-- Initialize Swiper -->
+			<script>
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 3,
+					spaceBetween: 30,
+					centeredSlides: true,
+					loop: true,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev",
+					},
+				});
+			</script>
+			<!-- 导播图 end-->
+		</div>
+
+		<!-- 返回顶部 begin -->
+		<a href="#head" class="tops">︿<br>TOP</a>
+		<!-- 返回顶部 end -->
+		<!--footer begin-->
+		<footer style="margin-top: 0;">
+			<div class="foot">
+				<p>软工第九小组版权所有</p>
+				<p>1934120112&nbsp;韩锦恒&nbsp;&nbsp;1934120108&nbsp;崔震云&nbsp;&nbsp;1934120158&nbsp;郑凯</p>
+			</div>
+		</footer>
+		<!--footer end-->
+	</body>
+</html>

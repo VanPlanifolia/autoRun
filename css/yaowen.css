@@ -1,0 +1,35 @@
+.xinwen{
+	
+}
+.w{
+	width: 1200px;
+}
+.xinwen h1{
+	font-size: 30px;
+	color:brown;
+	margin: 40px 0px 30px 42px;
+	
+}
+.xinwen ul{
+padding-left: 40px;
+margin: 16px 0 16px 0; 
+float: none;
+}
+.xinwen ul li {
+	margin: 0;
+	display: block;
+	width: 1200px;
+}
+.xinwen ul li a{
+	width: auto;
+	color: #000000;
+	font-size: 18px;
+	line-height: 45px;
+}
+.xinwen ul li i{
+	width: auto;
+	color: #000000;
+	font-size: 18px;
+	line-height: 45px;
+	float: right;
+}

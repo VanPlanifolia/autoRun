@@ -1,0 +1,71 @@
+
+.content1{
+	color:red;
+	height:1050px;
+	margin-top: 50px;
+}
+.content1 .top{
+	height:500px;
+	border-top:2px solid #ccc;
+	}
+.content1 span{
+	display: block;
+	width:200px;
+	height:50px;
+	background: #fafafa;
+	margin:-20px auto 20px	;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	position: unset;
+}
+.content1 a{
+	display: block;
+	text-decoration: none;
+	float: left;
+	width:289px;
+	height:249px;
+	overflow: hidden;
+	margin:0 14px 15px 73px;
+}
+.content1 a p{
+	margin: 10px 0 0 0;
+	color: #000;
+	font-size: 18px;
+}
+.content1  a img{
+	width:289px;
+	height:163px;
+	transition:all 0.5s ease-in 0s;
+
+}
+.content1 .top a:nth-child(4),.content1 .top a:nth-child(7){margin-right:0;}
+.content1 .top a:hover img{
+	transform: scale(1.1,1.1);
+}
+.content1 figure{
+	float: left;
+	margin: -13px 0 0 40px;
+}
+.content1 figure figcaption{
+	font-size: 20px;
+	height:50px;
+}
+.content1 figure ol li{
+	height:50px;
+	width:190px;
+	margin:10px 0 0 0 ;
+	padding-left: 60px;
+
+	background: url(../images/pic01.png) no-repeat;
+}
+
+.content1 figure ol h3{font-size: 16px;}
+.content1 figure p{
+	width:72px;
+	height:25px;
+	line-height: 25px;
+	border:1px solid #ccc;
+	text-align: center;
+	margin:30px 0 0 85px;
+}

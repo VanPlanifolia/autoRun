@@ -1,0 +1,65 @@
+/* banner begin *//
+.banner1 img {
+	width: 100%;
+}
+
+/* banner end */
+
+/* 导播图 begin */
+.daobo1 {
+	height: 700px;
+	background-color: #f1ebe6;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	height: 650px;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	background-color: #f1ebe6;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	transition: 300ms;
+	transform: scale(0.8);
+	overflow: hidden;
+}
+.swiper-slide p{
+	width: 380px;
+	position: absolute;
+	top: 90px;
+	left: 0;
+	text-align: center;
+	font: 900 30px "weiyuankahei";
+	color: #c1ad93;
+}
+.swiper-slide span{
+	display: block;
+	position: absolute;
+	top: 482px;
+	left: 0;
+	font: 400 20px "宋体";
+	color: #8f8984;
+}
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+	transform: scale(1);
+}
+
+/* 导播图 end */
